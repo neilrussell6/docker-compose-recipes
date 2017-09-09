@@ -1,0 +1,6 @@
+FROM python:3
+ENV PYTHONUNBUFFERED 1
+
+ENV SAY goodbye
+
+RUN echo $SAY

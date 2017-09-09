@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  web:
+    environment:
+      - SAY
+    build: . # build directory
+    volumes:
+      - .:/code
+    ports:
+      - "8001:8001"
+    command: bash -c "while true; do echo hello; sleep 2; done"
