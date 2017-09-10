@@ -84,11 +84,11 @@ recipe 8
 
 > compile and install different target dependency files (including support for nested dependencies)
 
-``make build`` build container
-``make compile`` compile all requirement txt files
-``make install`` install base requirements
-``make install requirements=test`` install test requirements (which extends base requirements)
-``make clean`` delete all requirement txt files (run before ``make compile`` to force update all dependencies)
+ * ``make build`` build container
+ * ``make compile`` compile all requirement txt files
+ * ``make install`` install base requirements
+ * ``make install requirements=test`` install test requirements (which extends base requirements)
+ * ``make clean`` delete all requirement txt files (run before ``make compile`` to force update all dependencies)
 
 recipe 9
 ---
