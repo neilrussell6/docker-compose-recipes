@@ -1,0 +1,7 @@
+-r base.txt
+
+factory_boy
+Faker
+nose
+pinocchio
+django_nose
